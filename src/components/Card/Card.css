@@ -1,0 +1,57 @@
+.card {
+  min-height: 130px;
+  width: 320px;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light black border */
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3); /* Heavier bottom border */
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 6px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  transition: border-color 0.3s ease; /* Smooth transition for border color change */
+}
+
+.card_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px; /* Reduced space below the header */
+}
+
+.card_id {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0; /* Ensures no extra margin */
+}
+
+.card_info {
+  text-transform: capitalize;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0; /* Remove extra space */
+}
+
+.card_footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 4px; /* Reduced padding for compactness */
+}
+
+.card_footer div {
+  display: flex;
+  align-items: center;
+  color: grey;
+  border-radius: 7px;
+  height: 100%;
+  border: 1px solid lightgrey;
+  padding: 0 5px; /* Adjusted padding */
+}
+
+.card_tag p {
+  margin: 0; /* Ensures no extra margin */
+  font-weight: normal; /* Ensures text is not bold */
+  color: gray; /* Optional for color consistency */
+}

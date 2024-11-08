@@ -1,0 +1,30 @@
+.board {
+  min-width: 360px; /* Reduced width */
+  padding: 5px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto; /* Center the board to avoid horizontal scroll */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+.board_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+  text-transform: capitalize;
+}
+.board_top_name {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Reduced gap */
+}
+.board_top_name p {
+  font-weight: 500;
+  font-size: 14px; /* Adjusted font size */
+}
+.board_container {
+  overflow-y: auto;
+  height: 75vh;
+}
